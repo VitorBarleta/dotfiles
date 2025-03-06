@@ -1,11 +1,10 @@
 {
-    "window.zoomLevel": 2,
-    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'GitLab Mono', monospace",
     "editor.fontWeight": "300",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
     "editor.lineHeight": 1.8,
-    "workbench.colorTheme": "Catppuccin Noctis Mocha",
-    "symbols.hidesExplorerArrows": false,
+    "workbench.colorTheme": "Catppuccin Mocha Darker",
     "workbench.iconTheme": "symbols",
     "editor.renderLineHighlight": "line",
     "editor.fontLigatures": true,
@@ -13,7 +12,7 @@
     "explorer.compactFolders": false,
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "default",
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.horizontal": "hidden",
@@ -23,14 +22,24 @@
     "window.titleBarStyle": "custom",
     "window.customTitleBarVisibility": "never",
     "files.autoSave": "onFocusChange",
-    "redhat.telemetry.enabled": true,
-    "omnisharp.enableDecompilationSupport": true,
-    "omnisharp.autoStart": true,
-    "omnisharp.useModernNet": true,
-    "csharp.showOmnisharpLogOnError": true,
-    "omnisharp.organizeImportsOnFormat": true,
-    "omnisharp.sdkIncludePrereleases": false,
-    "omnisharp.loggingLevel": "debug",
-    "dotnet.server.useOmnisharp": true,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.bracketPairColorization.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "makefile.configureOnOpen": true,
+    "go.toolsManagement.autoUpdate": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[templ]": {
+        "editor.defaultFormatter": "a-h.templ"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
